@@ -1,5 +1,10 @@
 ### My custom profile
 
+
+# Path
+PATH=/systems/bin:$PATH
+
+
 # Setup env for license server
 export CDS_LIC_FILE="5280@dunlop.hardent.com"
 export LM_LICENSE_FILE="5280@ssh.hardent.com"
@@ -11,8 +16,10 @@ export HISTFILESIZE=
 export HISTSIZE=
 HISTTIMEFORMAT="%d/%m/%y %T"
 
+
 # Set my default editor to pico/nano
 export EDITOR='/bin/pico'
+
 
 # Create needed aliases because I am lazy
 alias jobs='bjobs -u all'
